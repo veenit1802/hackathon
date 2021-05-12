@@ -1,0 +1,29 @@
+kendo-appbar ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+kendo-appbar li{
+    margin: 0 20px;
+}
+
+kendo-appbar li:hover{
+    cursor: pointer;
+}
+
+kendo-appbar li span{
+    font-size: large;
+}
+
+.usericon{
+    display: block;
+}
+
+.searchbox{
+    width: 100%;
+    padding:15px;
+    border-radius: 100px;
+}

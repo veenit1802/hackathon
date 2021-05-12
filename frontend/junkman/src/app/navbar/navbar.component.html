@@ -1,0 +1,29 @@
+<kendo-appbar [position]="'top'"  [positionMode]="'fixed'" >
+    <kendo-appbar-section>
+       <h1 class="title">JuNkMaN</h1> 
+    </kendo-appbar-section>
+
+    <kendo-appbar-spacer [width]="'6%'"></kendo-appbar-spacer>
+
+    <kendo-appbar-section>
+        <ul>
+            <li><span>BUY</span></li>
+            <li><span>SELL</span></li>
+        </ul>
+    </kendo-appbar-section>
+    
+    <kendo-appbar-spacer></kendo-appbar-spacer>
+
+    <kendo-appbar-section class="search-section">
+        <kendo-textbox placeholder="Search..." [clearButton]="true" class="searchbox">
+            <ng-template kendoTextBoxPrefixTemplate >
+                <kendo-icon [name]="'search'"></kendo-icon>
+            </ng-template>
+        </kendo-textbox>
+    </kendo-appbar-section>
+
+    <kendo-appbar-section>
+        <li class=""><span class="k-icon k-i-user usericon"></span></li>
+    </kendo-appbar-section>
+
+</kendo-appbar>
