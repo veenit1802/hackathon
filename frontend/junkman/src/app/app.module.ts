@@ -11,6 +11,11 @@ import { IconModule } from '@progress/kendo-angular-icons';
 import { ScrollViewModule } from '@progress/kendo-angular-scrollview';
 import { ScrollviewComponent } from './homepage/scrollview/scrollview.component';
 import { FormsModule } from '@angular/forms';
+import { CardimageComponent } from './homepage/cardimage/cardimage.component';
+import { LayoutModule } from '@progress/kendo-angular-layout';
+import { FooterComponent } from './footer/footer.component';
+import { GridModule } from '@progress/kendo-angular-grid';
+
 
 
 
@@ -23,7 +28,9 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     NavbarComponent,
-    ScrollviewComponent
+    ScrollviewComponent,
+    CardimageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,10 @@ import { FormsModule } from '@angular/forms';
     NavigationModule,
     IconModule,
     ScrollViewModule,
-    FormsModule
+    FormsModule,
+    LayoutModule,
+    ScrollViewModule,
+    GridModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
