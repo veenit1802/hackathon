@@ -27,3 +27,8 @@ kendo-appbar li span{
     padding:15px;
     border-radius: 100px;
 }
+
+.dropdownappbar{
+   padding-right:5%;
+   padding-left: 3%;
+}

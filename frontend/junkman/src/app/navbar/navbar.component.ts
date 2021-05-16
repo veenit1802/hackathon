@@ -12,4 +12,13 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public data: Array<string> = [
+    "My Profile",
+    "Buy",
+    "Sell",
+    "Account Settings",
+    "Support",
+    "Log Out",
+  ];
+
 }

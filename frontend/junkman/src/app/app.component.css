@@ -23,7 +23,7 @@ pp-cardimage::-webkit-scrollbar
 }
 
 app-footer{
+    display: grid;
     margin-top: 1%;
-    display: flex;
     width: 100%;
 }

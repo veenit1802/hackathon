@@ -40,8 +40,8 @@
  
 }
 .left-arrow{
-  margin-left: 95%;
-  margin-top: 4%;
+  margin-left: 94%;
+  transform: translateY(150%);
 }
 
 .right-arrow{

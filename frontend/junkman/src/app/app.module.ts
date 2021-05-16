@@ -15,6 +15,8 @@ import { CardimageComponent } from './homepage/cardimage/cardimage.component';
 import { LayoutModule } from '@progress/kendo-angular-layout';
 import { FooterComponent } from './footer/footer.component';
 import { GridModule } from '@progress/kendo-angular-grid';
+import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
+import { DropDownButton, DropDownButtonModule } from '@progress/kendo-angular-buttons';
 
 
 
@@ -44,6 +46,7 @@ import { GridModule } from '@progress/kendo-angular-grid';
     LayoutModule,
     ScrollViewModule,
     GridModule,
+    DropDownButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],

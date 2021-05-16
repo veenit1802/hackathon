@@ -1,3 +1,48 @@
-kendo-card,kendo-card-body{
+footer{
     width: 100%;
+    background-color: rgb(10, 10, 10);
+}
+
+kendo-card-body{
+    display: flex;
+    background-color: rgb(46, 52, 68);
+}
+
+kendo-card-body:nth-child(1)
+{
+    justify-content: center;
+    color: white;
+    background-color: rgb(75, 84, 102);
+    cursor: pointer;
+}
+
+ul:nth-child(1)
+{
+    margin: 0 20%;
+}
+
+ul:nth-child(2)
+{
+    margin-right: 20%;
+}
+
+li{
+    list-style: none;
+    margin-top: 4%;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(204, 202, 202);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+h3{
+    color: white;
 }
